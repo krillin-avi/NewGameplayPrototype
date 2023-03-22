@@ -13,6 +13,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
     public Transform cam;
 
+    /*
     //Jump Stuff
     Vector3 velocity;
     public float gravity = -9.8f;
@@ -21,6 +22,7 @@ public class ThirdPersonMovement : MonoBehaviour
     public LayerMask groundMask;
     bool isGrounded;
     public float jumpHeight = 3;
+    */
 
     //Dash & Movement
     public Vector3 moveDir;
@@ -52,6 +54,7 @@ public class ThirdPersonMovement : MonoBehaviour
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
 
+        /*
         //Jump
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDist, groundMask);
         if (isGrounded && velocity.y < 0)
@@ -67,5 +70,6 @@ public class ThirdPersonMovement : MonoBehaviour
 
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
+        */
     }
 }
