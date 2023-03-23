@@ -7,3 +7,7 @@ Camera Controls: Mouse (Click Screen to Lock and Hide Cursor)
 Dash Ability: E Key
 
 EMP Grenade: Left Mouse Click
+
+Grapple: X
+
+Quit: Escape

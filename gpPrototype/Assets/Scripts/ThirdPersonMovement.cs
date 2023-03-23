@@ -33,6 +33,11 @@ public class ThirdPersonMovement : MonoBehaviour
         controller = GetComponent<CharacterController>();
 
         Cursor.lockState = CursorLockMode.Locked;
+
+       if (Input.GetKeyDown(KeyCode.Escape)) {
+            Debug.Log("QUIT!");
+            Application.Quit();
+    }
     }
 
     // Update is called once per frame

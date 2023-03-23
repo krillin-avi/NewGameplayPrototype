@@ -1,4 +1,5 @@
 Known Issues:
 - Third person camera clips through some game objects and the ground (This may happen on start, adjust the camera to properly orientate yourself)
 - Throwing a grenade while the player is walking, pushes the player up on its Y axis.
+- Grapple sometimes appears, sometimes doesn't. Most of the time, the player grapples to the floor instead of the cubes above
 
