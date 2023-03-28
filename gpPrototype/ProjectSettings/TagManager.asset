@@ -14,9 +14,9 @@ TagManager:
   - 
   - CameraCollider
   - Grapple
-  - 
-  - 
-  - 
+  - CanEMP
+  - Ground
+  - Player
   - 
   - 
   - 
