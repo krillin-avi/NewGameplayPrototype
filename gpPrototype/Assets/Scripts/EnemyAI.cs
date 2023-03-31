@@ -34,7 +34,7 @@ public class EnemyAI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("Player").transform;
+        player = GameObject.Find("Third Person Player").transform;
         enemyAgent = GetComponent<NavMeshAgent>();
         
     }
