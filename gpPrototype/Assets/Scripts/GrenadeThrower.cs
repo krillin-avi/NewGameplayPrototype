@@ -6,6 +6,7 @@ public class GrenadeThrower : MonoBehaviour
 {
   public float throwForce = 40f;
   public GameObject grenadePrefab;
+  Vector3 empOrigin;
 
 
 
@@ -20,6 +21,7 @@ public class GrenadeThrower : MonoBehaviour
 
     public void ThrowGrenade()
     {
+       //empOrigin = new Vector3(0, 0, 2);
        GameObject grenade = Instantiate(grenadePrefab, transform.position, transform.rotation);
        Rigidbody rb = grenade.GetComponent<Rigidbody>();
        rb.AddForce(transform.forward * throwForce, ForceMode.VelocityChange);
