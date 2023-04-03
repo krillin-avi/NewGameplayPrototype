@@ -50,12 +50,13 @@ public class Grenade : MonoBehaviour
                 rb.AddExplosionForce(force, transform.position, radius);
 
                 enemyScript.DisableEnemy();
-                 
             }
+
         }
 
         Destroy(gameObject);
     }
+
 
     /*
     public IEnumerator EMPShutdown() 

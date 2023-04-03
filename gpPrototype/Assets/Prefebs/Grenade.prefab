@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7205555513140401304}
   m_Layer: 0
   m_Name: Grenade
-  m_TagString: Untagged
+  m_TagString: EMP
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34,7 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7205555513140401302
 MeshFilter:
@@ -128,4 +128,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 3
+  force: 800
+  radius: 20
+  empDowntime: 0
+  layerMask: 512
   explosionEffect: {fileID: 1329845292236604, guid: 9bba9cf244c53c5439505dfc96fdd11c, type: 3}
